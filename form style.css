@@ -1,0 +1,38 @@
+*
+{
+    margin: 0;
+    padding: 0;
+
+}
+form{
+    background-color: rgb(247, 217, 217);
+    width: 30%;
+    border: 2px solid rgb(39, 16, 30);
+    margin: 50px;
+    align-items: center;
+    margin-left: 38%;
+}
+label
+{ 
+    color:navy;
+    padding: 10px;
+    font-weight: bold
+
+}
+input [type="text"]
+{
+    height: 30px;
+    width: 190px;
+}
+option{
+    background-color: brown;
+}
+button{
+    background-color: black;
+    color: white;
+    border-radius: 40px;
+    padding: 8px;
+    font-weight: bold; 
+    align-items: center;
+    margin-left: 40%;
+}

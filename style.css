@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.sample{
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    
+}
+.video-container{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+
+}
+.video-container video{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    min-width: 100%; 
+    padding: 0;
+    
+}
+.video-content{
+    z-index: 1;
+    text-align: center;
+}
+.video-content h1{
+    color: white;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+.video-content a{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border: 1px solid white;
+    text-decoration: none;
+}
+.video-content a:hover{
+    opacity: 0.5;
+    color: rgb(43, 224, 58);
+}
+.mid-section1 h1{
+    color: navy;
+    font-size:35px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    text-decoration:underline;
+}
+.mid-section2 h1{
+    color: navy;
+    font-size:30px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    text-transform: uppercase;
+    text-decoration:underline;
+}
+.mid-section1 p::first-letter{
+    color:red;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 50px;
+}
+.mid-section1 p{
+    font-style: italic;
+    font-size: 18px; 
+    font-family: 'Times New Roman', Times, serif;
+    text-transform:capitalize;
+    background-color: gainsboro;
+}
+.mid-section2 p{
+    font-style: italic;
+    font-size: 18px; 
+    font-family: 'Times New Roman', Times, serif;
+    text-transform:capitalize;
+    color: black;
+    background-color: gainsboro;
+}
+#like{
+    text-align: center;
+    color:rgb(129, 6, 6);
+    font-size: 20px;
+} 
+.dev{
+    color:green;
+    font-weight: bold;
+}
+.vasu{
+    color: orangered;
+    font-weight: bold;
+}
+.she{
+    color: brown;
+    font-weight: bold;
+    text-transform:uppercase;
+}
+.kri{
+    color: blue;
+    font-weight: bold;
+
+}
+.ram{
+    color:purple;
+    font-weight: bold;
+    text-transform: uppercase;
+}
